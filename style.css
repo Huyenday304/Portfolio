@@ -1557,6 +1557,7 @@ video {
     .button,
     .footer-text {
         font-size: 1.25rem;
+        font-weight: 400;
         letter-spacing: -0.0125rem;
     }
     p {
@@ -1809,6 +1810,7 @@ video {
         font-size: 2rem;
         letter-spacing: -0.002rem;
     }
+    
     #hello img {
         width: 2.6rem;
     }
