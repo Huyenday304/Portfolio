@@ -1164,9 +1164,9 @@ video {
     transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
 }
 #prj-img-1 img {
-    width: 115%;
-    height: 115%;
-    /* object-position: -11rem -5rem; */
+    width: 110%;
+    height: 110%;
+    object-position: -5rem -7rem;
 }
 #prj-img-1,
 #prj-img-3,
