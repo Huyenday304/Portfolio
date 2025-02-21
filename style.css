@@ -1166,7 +1166,7 @@ video {
 #prj-img-1 img {
     width: 115%;
     height: 115%;
-    object-position: -11rem -5rem;
+    /* object-position: -11rem -5rem; */
 }
 #prj-img-1,
 #prj-img-3,
