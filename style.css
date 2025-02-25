@@ -6,13 +6,14 @@
     text-decoration: none;
 }
 html {
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 16px;
     color: var(--white);
     font-style: normal;
+    font-weight: 400;
     font-optical-sizing: auto;
     font-variation-settings:
-    "ELGR" 2,
+    "ELGR" 1,
     "ELSH" 2;
 }
 
@@ -89,7 +90,7 @@ nav {
 
 #menu li a{
     color: var(--white);
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 1.4rem;
     font-weight: 300;
     line-height: normal;
@@ -98,9 +99,9 @@ nav {
 
 #menu-mobile li a {
     color: var(--white);
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 2.25rem;
-    font-weight: 370;
+    font-weight: 390;
     line-height: normal;
     transition: 0.1s ease;
 }
@@ -194,10 +195,10 @@ main {
 
 
 h1 {
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 6.875rem;
     font-weight: 400;
-    letter-spacing: -0.34rem;
+    /* letter-spacing: -0.34rem; */
     text-transform: uppercase;
     z-index: 80;
     white-space: nowrap;
@@ -223,10 +224,10 @@ h1 {
 }
 
 h2{
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 4.5rem;
     font-weight: 390;
-    letter-spacing: -0.135rem;
+    letter-spacing: -0.05rem;
     text-transform: uppercase;
     font-variation-settings:
     "ELGR" 1,
@@ -391,12 +392,12 @@ p {
 h4,
 .button,
 .footer-text {
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 390;
     text-transform: uppercase;
     font-variation-settings:
-    "ELGR" 1,
+    "ELGR" 2,
     "ELSH" 2;
     text-align: center;
     z-index: 10;
@@ -429,10 +430,10 @@ h4,
     justify-self: stretch;
 }
 h3 {
-    font-family: "Handjet", sans-serif;
+    font-family: "Handjet", serif;
     font-size: 2.8rem;
     font-weight: 390;
-    letter-spacing: -0.06rem;
+    letter-spacing: -0.05rem;
     text-transform: uppercase;
     font-variation-settings:
     "ELGR" 1,
@@ -1642,20 +1643,20 @@ video {
     }
     h2 {
         font-size: 4rem;
-        letter-spacing: -0.12rem;
-        font-weight: 370;
+        /* letter-spacing: -0.12rem; */
+        font-weight: 400;
     }
     h3 {
         font-size: 2.25rem;
-        letter-spacing: -0.045rem;
-        font-weight: 370;
+        /* letter-spacing: -0.045rem; */
+        font-weight: 390;
     }
     h4,
     .button,
     .footer-text {
         font-size: 1.25rem;
-        font-weight: 400;
-        letter-spacing: -0.0125rem;
+        /* font-weight: 400; */
+        /* letter-spacing: -0.0125rem; */
     }
     p {
         font-size: 1rem;
@@ -1890,6 +1891,7 @@ video {
         display: flex;
         height: 100vh;
         opacity: 1;
+        /* justify-content: flex-end; */
     }
   
     #menuToggle {
@@ -1923,7 +1925,7 @@ video {
     }}
     h1 {
         font-size: 4.5rem;
-        letter-spacing: -0.1125rem;
+        /* letter-spacing: -0.1125rem; */
         font-weight: 395;
     }
     h2 {
@@ -1932,7 +1934,8 @@ video {
     }
     h3 {
         font-size: 2rem;
-        letter-spacing: -0.002rem;
+        font-weight: 400;
+        /* letter-spacing: -0.002rem; */
     }
     
     #hello img {
