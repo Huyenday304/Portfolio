@@ -1149,13 +1149,14 @@ video {
     color: var(--primary);
 }
 #info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
 }
 #key {
     display: flex;
-    width: 68vw;
+    width: 100%;
     height: auto;
     justify-content: space-between;
     align-items: center;
@@ -1165,7 +1166,7 @@ video {
     row-gap: 0.3rem;
 }
 #mentor {
-    width: 68vw;
+    width: 100%;
     white-space: wrap;
     text-align: left;
 }
@@ -1187,7 +1188,8 @@ video {
     width: 100%;
 }
 
-#overview {
+#overview,
+#overview-2 {
     position: relative;
     width: 100%;
     height: auto;
@@ -1208,7 +1210,22 @@ video {
     justify-content: center;
     gap: 2rem;
 }
-
+.dad {
+    margin-bottom: 4rem;
+    gap: 5rem;
+    display: inline-flex;
+    height: auto;
+    background-color: var(--black);
+    width: 100%;
+}
+.dad p {
+    /* max-width: 35rem; */
+    z-index: 100;
+    text-align: left;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 0;
+}
 .prj-img img {
     width: 100%;
     height: 100%;
@@ -1252,6 +1269,7 @@ video {
     top: 0;
     left: 0;
 }
+
 
 #overview p {
     /* position: absolute; */
