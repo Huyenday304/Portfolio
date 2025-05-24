@@ -833,7 +833,8 @@ footer {
     margin-top: -0.6rem; 
 }
 
-.work-thumbnail {
+.work-thumbnail,
+.work-thumbnail-1 {
     width: 100%;
     height: 42vh;
     overflow: hidden;
@@ -844,6 +845,14 @@ footer {
     object-fit: cover;
     object-position: center;
     height: 100%;
+    position: relative;
+    transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
+}
+.work-thumbnail-1 img {
+    width: 110%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    height: 110%;
     position: relative;
     transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
 }
@@ -1111,7 +1120,9 @@ video {
 #hero-img,
 #hero-img-1,
 #hero-img img,
-#hero-img-1 img {
+#hero-img-1 img,
+#hero-img-2 img,
+#hero-img-2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -1127,6 +1138,13 @@ video {
 #hero-img-1 img {
     object-fit: cover;
     object-position: 50% 50%;
+    position: relative;
+    transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
+}
+
+#hero-img-2 img {
+    object-fit: cover;
+    object-position: 50% 30%;
     position: relative;
     transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
 }
@@ -1278,15 +1296,19 @@ video {
     /* padding: 0.625rem 0rem 0rem 0.625rem; */
     /* align-items: flex-start; */
     /* justify-content: flex-start; */
-    max-width: 38rem;
+    max-width: 40rem;
     height: auto;
     background-color: var(--black);
     z-index: 100;
-    text-align: center;
+    text-align: left;
     opacity: 1;
     transform: translateY(0);
     padding: 0;
     margin-bottom: 4rem;
+}
+
+#cookbook-description {
+    max-width: 46rem !important;
 }
 
 #mockups {
