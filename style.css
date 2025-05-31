@@ -72,6 +72,7 @@ nav::before {
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     z-index: -1;
   }
 
@@ -2528,6 +2529,7 @@ video {
       justify-content: space-between;
       /* background-color: var(--primary); */
       backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
       background-color: rgba(0, 0, 0, 0.7);
       background-blend-mode: luminosity;
       margin:0;
