@@ -406,7 +406,20 @@ p {
     width: 100%;
     height: 70vh;
     position: relative;
+    opacity: 0;
+    transform: translateY(30px); /* or X for sideway slide */
+    transition: all 0.8s ease-out;
 }
+.content.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+  .reveal:nth-child(1) { transition-delay: 0s; }
+  .reveal:nth-child(2) { transition-delay: 0.2s; }
+  .reveal:nth-child(3) { transition-delay: 0.4s; }
+  /* and so on... */
+  
 
 /* #content-1 {
     grid-column-start: 2;
@@ -1034,7 +1047,18 @@ footer {
 b {
     font-weight: bold;
 }
-.aboutme {
+.reveal {
+    opacity: 0;
+    transform: translateY(30px); /* or X for sideway slide */
+    transition: all 0.8s ease-out;
+  }
+  
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+#aboutme {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     /* grid-template-rows: 0.1fr 1fr; */
@@ -1080,7 +1104,7 @@ b {
     border-color: var(--primary);
 }
 
-.aboutme p {
+#aboutme p {
     max-width: 34.5rem;
 }
 #time {
@@ -1902,7 +1926,7 @@ video {
     }
     #contact,
     #creative,
-    .aboutme {
+    #aboutme {
         padding: 0 4.1vw 0 4.1vw;
     }
     #socials,
@@ -2117,12 +2141,12 @@ video {
         max-width: 1000rem !important;
         width: 100% !important;
     }
-    .aboutme {
+    #aboutme {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .aboutme p {
+    #aboutme p {
         max-width: 100%;
     }
     /* #skills {
