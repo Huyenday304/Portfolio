@@ -50,7 +50,7 @@ header {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: column;
     padding: 1.4rem 4.1vw 0.5rem 4.1vw;
@@ -1404,12 +1404,25 @@ video {
     border: 0px; 
     width: 100%; 
     height: 65vh;
+    /* max-height: 80vh; */
     object-fit: contain;
     aspect-ratio: 8 / 5;
-    width: 100%;
-    height: 100%;
     pointer-events: auto;
+    display: block;
+    overflow: hidden;
 }
+.fp-iframe2 {
+    width: 100%;
+    height: 65vh;
+    display: block;
+    object-fit: contain;
+    aspect-ratio: 8 / 5;
+    margin: 0 auto;
+    border: none;
+    overflow: hidden;
+    pointer-events: auto;
+  }
+  
 #overview,
 #overview-2 {
     position: relative;
@@ -2300,6 +2313,9 @@ video {
     .fp-iframe {
         height: 30vh;
     }
+    .fp-iframe2 {
+        height: 80vh;
+      }
     #ngo {
         /* bottom: 4.045rem; */
         top: -2.35rem;
