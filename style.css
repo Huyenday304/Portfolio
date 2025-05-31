@@ -1400,8 +1400,7 @@ video {
     gap: 1rem;
     width: 100%;
 }
-.fp-iframe,
-.fp-iframe2 {
+.fp-iframe {
     border: 0px; 
     width: 100%; 
     height: 65vh;
@@ -1412,6 +1411,17 @@ video {
     display: block;
     overflow: hidden;
 }
+.fp-iframe2 {
+    width: 100%;
+    height: 65vh;
+    display: block;
+    object-fit: contain;
+    aspect-ratio: 8 / 5;
+    margin: 0 auto;
+    border: none;
+    overflow: hidden;
+    pointer-events: auto;
+  }
   
 #overview,
 #overview-2 {
