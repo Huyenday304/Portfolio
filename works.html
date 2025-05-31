@@ -29,23 +29,39 @@
    <body>
     <header>
         <nav>
-            <ul id="navi">
+            <div id="navi">
               <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
+              <div id="menuToggle" onclick="toggleMenu()">
+                <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+              </div>
               <ul id="menu">
                   <li><a href="about.html">About</a></li>
                   <li><a href="works.html">Works</a></li>
                   <li><a href="archive.html">Archive</a></li>
                   <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
               </ul>
-            </ul>
+            </div>
             <ul id="menu-mobile">
+              <div id="closeToggle" onclick="toggleMenu()">
+                <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+              </div>
+              <!-- <div id="navi"> -->
+              <div id="mobile-down">
+              <li><a href="index.html">Home</a></li>
+              <!-- </div> -->
+              <div class="divider"></div>
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
+              <div class="divider"></div>
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+              <span class="caption">
+                <!-- ©&nbsp; -->
+                [GMT+7]&nbsp;
+                2025
+                &nbsp;SAIGON, VIETNAM.&nbsp;
+              </span>
+            </div>
           </ul>
           </nav>
     </header>
@@ -99,7 +115,7 @@
               <li class="content" id="content01">
                 <h3 id="prj-title-2">All You Can Eat</h3>
                 <div class="work-thumbnail-1"><img src="assets/project/ALL YOU CAN EAT/MOCKUP/Mockup.png"></div>
-                <h4 class="tags" id="tag-2">Speculative Design / Book Design / 2025</h4>
+                <h4 class="tags" id="tag-2">Speculative / Book Design / 2025</h4>
                 <a href="cookbook.html"></a>
             </li>
              <li class="content" id="content02">

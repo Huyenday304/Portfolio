@@ -37,26 +37,42 @@
 </script>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <main>
         <section id="project">
@@ -78,27 +94,58 @@
                     <!-- <div class="nhim" id="idea"><img src="assets/images/IDEA.svg"></div> -->
                     <!-- <h4 class="tags" id="tag-4"><a href="https://bestbrandawards.com/winners/year2024" target="_blank">The Best Brand Award 2024 Winner</a></h4> -->
                 </div>
-                <div id="hero-content">
                     <div class="content">
                         <div id="hero-img-1"><img src="assets/project/Tourists Go Home/Cover Image.jpg"></div>
                         <h3 id="prj-title-1">Tourists Go Home</h3>
                     </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>Typography-led Campaing / 2025</h4>
-                            <h4>Ft. Chieu Nghi, Tin Chung, Thao Nguyen, Hanh Nguyen</h4>
-                            <h4>6 Months</h4>
-                        </div>
-                        <h4 id="mentor">Competition: D&AD New Blood Awards 2025</h4>
-                        <h4 id="mentor">Brief set by: Monotype (in collaboration with Pentagram)</h4>
-                        <h4 id="mentor">Lecturer: Sea Nguyen, Soumik Parida, Vu Nguyen, Natasha Koziy, Khanh Nguyen</h4>
-                    </div>
-                </div>
             </section>
+            <div id="info">
+              <div id="key">
+                <div id="responsive">
+                  <h4>Type</h4>
+                  <p>Typography-led Campaign</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>6 Month</p>
+                  <p>(2024-25)</p>
+                </div>
+                <div id="responsive">
+                  <h4>Team</h4>
+                  <p><b>Tin Chung:</b> Graphic Designer, Motion Designer</p>
+                  <p><b>Chieu Nghi:</b> Copywriter</p>
+                  <p><b>Thao Hoang:</b> Graphic Designer</p>
+                  <p><b>Hanh Nguyen:</b> Graphic Designer</p>
+                  <p><b>Huyen Nguyen:</b> Graphic Designer</p>
+                </div>
+                <div>
+                  <h4>Mentors</h4>
+                  <p>Sea Nguyen</p>
+                  <p>Soumik Parida</p>
+                  <p>Vu Nguyen</p>
+                  <p>Natasha Koziy</p>
+                  <p>Khanh Nguyen</p>
+                </div>
+              </div>
+              <div id="brief">
+                <div id="description">
+                  <h4>Competition</h4>
+                  <p>D&AD New Blood Awards 2025</p>
+                </div>
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>The Monotype Brief asks us to reimagine the role of typography in the tension between freedom and law & order, using the latest font technology, font displays/media/carriers, and novel typographic form.</p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p>Barcelona’s housing crisis, fueled by mass tourism, has left many locals unable to afford a home. This led to extreme protests on the streets, urging for the control on the number of visiting tourists. This campaign uses typography as an active force to leverage mass tourism for the quality of life for the residents. By blending design, commerce, and activism, "Tourists Go Home" transforms typography into a tool for change, ensuring that those who call Barcelona home can stay.</p>
+                </div>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
                     <section id="overview-2">
-                        <h4 class="tags" id="tag-5">Project Overview</h4>
+                        <!-- <h4 class="tags" id="tag-5">Project Overview</h4> -->
                         <div class="description">
                         <div class="prj-img">
                             <video controls>
@@ -111,10 +158,9 @@
                             style="border-style: none;width: 100%; height: 100%;"
                             src="https://www.youtube.com/embed/Vo25sazken4?si=YDtxyaxEJKvA_Sj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div> -->
-                        <div class="dad">
-                            <p>The Monotype Brief, one of the most popular brief of D&AD New Blood Awards 2025, asks us to reimagine the role of typography in the tension between freedom and law & order, using the latest font technology, font displays/media/carriers, and novel typographic form.</p>
+                        <!-- <div class="dad">
                             <p>Barcelona’s housing crisis, fueled by mass tourism, has left many locals unable to afford a home. This led to extreme protests on the streets, urging for the control on the number of visiting tourists. This campaign uses typography as an active force to leverage mass tourism for the quality of life for the residents. By blending design, commerce, and activism, "Tourists Go Home" transforms typography into a tool for change, ensuring that those who call Barcelona home can stay.</p>
-                        </div>
+                        </div> -->
                         <!-- <p>
                             The Monotype Brief, one of the most popular brief of D&AD New Blood Awards 2025, asks us to reimagine the role of typography in the tension between freedom and law & order, using the latest font technology, font displays/media/carriers, and novel typographic form.
                             <br></br>

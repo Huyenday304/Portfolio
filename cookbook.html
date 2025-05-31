@@ -38,26 +38,42 @@
 </script>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <main>
         <section id="project">
@@ -75,29 +91,59 @@
                 </div>
               </div>
             <section id="hero">
-                <div id="hero-content">
-                    <div class="content">
-                        <div id="hero-img-2"><img src="assets/project/ALL YOU CAN EAT/MOCKUP/Mockup.png"></div>
-                        <h3 id="prj-title-1">All You Can Eat</h3>
-                    </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>Speculative Design / Book Design / 2025</h4>
-                            <h4>3 Month</h4>
-                        </div>
-                        <h4 id="mentor">Lecturer: Becky Lu & Andrew Stiff</h4>
-                    </div>
-                </div>
+              <div class="content">
+                <div id="hero-img-2"><img src="assets/project/ALL YOU CAN EAT/MOCKUP/Mockup.png"></div>
+                <h3 id="prj-title-1">All You Can Eat</h3>
+              </div>
             </section>
+            <div id="info">
+              <div id="key">
+                <div id="responsive">
+                  <h4>Type</h4>
+                  <p>Speculative Design</p>
+                  <p>Book Design</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>3 Month</p>
+                  <p>(2025)</p>
+                </div>
+                <div id="responsive">
+                  <h4>Course</h4>
+                  <p>Capstone Studio 1</p>
+                </div>
+                <div>
+                  <h4>Mentors</h4>
+                  <p>Becky Lu</p>
+                  <p>Andrew Stiff</p>
+                </div>
+              </div>
+              <div id="brief">
+                
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>Reimagining what your local neighborhood could look like in 2050, identify the changes in people's life and how they adapt. Look for design opportunities and adaptations. </p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p>
+                    Binh Chanh District suffers from severe subsidence, with peeling bricks on pavements and building edges. These cracks filled with cigarette butts, dried leaves, rainwater, etc became home to weeds, moss, and new resilient plants. By 2045, the plants fill the cracks and stabilize the pavement, making it walkable again. By 2050, Mizuki Park blooms with mossy roads, herbs, and giant flowers. These plants grow with resilience and adapt to their environments. Besides from the peeling bricks on pavements, they grow on different spots around the neighborhood, each is specific and unique to the places it orginates from. They offer free, nutritious food sources for residents, helping ease food scarcity caused by overpopulation and rapid urban development. Residents turn to foraging and inherit the plants’ strength by eating them. 
+                  </p>
+                </div>
+                <p>
+                  This new life is captured in a foraging cookbook, filled with simple, local recipes, plant profiles, and secret methods passed down by market sellers. It helps others easily cook delicious meals at home, mainly using these plants as ​​vegetarian upgrades to the Vietnamese traditional dishes. They are the main ingredients, ensuring their nutrients and superpower are in the best state for residents. Other than that, it can be used as herbs, medicine, meat substitute, desserts and others. More than a cookbook, it tells the neighborhood's story in 2050, how nature always has its ways to reclaim the city.
+              </p>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
-                    <section id="overview">
+                    <!-- <section id="overview">
                         <h4 class="tags" id="tag-5">Project Overview</h4>
                         <div class="description">
                         <div class="prj-img" id="prj-img-4"><img src="assets/project/ALL YOU CAN EAT/MOCKUP/Cover.png"></div>
-                        <!-- <p id="cookbook-description">
+                        <p id="cookbook-description">
                             Binh Chanh District suffers from severe subsidence, with peeling bricks on pavements and building edges. These cracks filled with cigarette butts, dried leaves, rainwater, etc became home to weeds, moss, and new resilient plants. By 2045, the plants fill the cracks and stabilize the pavement, making it walkable again. By 2050, Mizuki Park blooms with mossy roads, herbs, and giant flowers. These plants grow with resilience and adapt to their environments. They offer free, nutritious food sources for residents, helping ease food scarcity caused by overpopulation and rapid urban development. Residents turn to foraging and inherit the plants’ strength by eating them. This new life is captured in a foraging cookbook, filled with simple, local recipes, plant profiles, and secret methods passed down by market sellers. It helps others easily cook delicious meals at home. More than a cookbook, it tells the story of the neighborhood in 2050, of how nature always has its ways to reclaim the city.
-                        </p> -->
+                        </p>
                         <div class="dad">
                             <p>
                                 Binh Chanh District suffers from severe subsidence, with peeling bricks on pavements and building edges. These cracks filled with cigarette butts, dried leaves, rainwater, etc became home to weeds, moss, and new resilient plants. By 2045, the plants fill the cracks and stabilize the pavement, making it walkable again. By 2050, Mizuki Park blooms with mossy roads, herbs, and giant flowers. These plants grow with resilience and adapt to their environments. Besides from the peeling bricks on pavements, they grow on different spots around the neighborhood, each is specific and unique to the places it orginates from. They offer free, nutritious food sources for residents, helping ease food scarcity caused by overpopulation and rapid urban development. Residents turn to foraging and inherit the plants’ strength by eating them. 
@@ -107,18 +153,18 @@
                             </p>
                         </div>
                         </div>
-                    </section>
+                    </section> -->
                     <!-- <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 90vh;"><iframe src="https://huyen.paperturn-view.com/?pid=ODg8886988&bgcolor=transparent&embed=script&shadow=1&flipSound=1&hardCover=1" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: transparent"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script>
                     <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 60vh;"><iframe src="https://nhim.paperturn-view.com/?pid=ODg8886992&bgcolor=transparent&embed=script&shadow=1&flipSound=1&hardCover=1" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: transparent"></iframe></div><script src="https://www.paperturn-view.com/script/embed?v=1"></script> -->
                     <!-- <iframe src="https://online.fliphtml5.com/xkhvv/bfyd/" width="100%" height="600px" seamless="seamless" frameborder="0" allowfullscreen></iframe> -->
-                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/524c41151d.html" style="border: 0px; width: 100%; height: 90vh;"></iframe>
-                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/6da9513b63.html" style="border: 0px; width: 100%; height: 50vh;"></iframe>
+                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/524c41151d.html"></iframe>
+                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/6da9513b63.html"></iframe>
                     <div class="prj-img" id="motion-graphics">
                         <video controls>
                             <source src="assets/project/ALL YOU CAN EAT/s3978746_NguyenNgocHuyen_VideoPresentation.mp4">
                         </video>
                     </div>
-                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/773af15cf7.html" style="border: 0px; width: 100%; height: 50vh;"></iframe>
+                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/773af15cf7.html"></iframe>
                     <!-- <embed src="assets/project/ALL YOU CAN EAT/Cookbook.pdf" type="application/pdf" width="100%" height="700vh" /> -->
                     <!-- <section id="mockups">
                         <div class="prj-img" id="prj-img-2"><img src="assets/project/ALL YOU CAN EAT/MOCKUP/open page mockup.png"></div>

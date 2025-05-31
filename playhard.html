@@ -28,26 +28,42 @@
    </head>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H0K7VT3TY"></script>
@@ -78,31 +94,59 @@
                     <div class="nhim" id="idea"><img src="assets/images/IDEA.svg"></div>
                     <h4 class="tags" id="tag-4"><a href="https://www.rmitvn-showcase.com/scd-ds-y2/en/playhard" target="_blank">RMIT Impact Showcase</a></h4>
                 </div>
-                <div id="hero-content">
                     <div class="content">
                         <div id="hero-img-1"><img src="assets/project/PLAYHARD/thumbnail.png"></div>
                         <h3 id="prj-title-1">PLAYHARD</h3>
                     </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>Branding / 2024</h4>
-                            <h4>Ft. Hanh Nguyen</h4>
-                            <h4>1 Months</h4>
-                            <h4>CLient: PHLinh, Mark Lockwood & Jonas Koch</h4>
-                        </div>
-                        <h4 id="mentor">Lecturer: Marko Stanojevic & Abbas Mteirek</h4> 
-                    </div>
-                </div>
             </section>
+            <div id="info">
+              <div id="key">
+                <div id="responsive">
+                  <h4>Type</h4>
+                  <p>Branding</p>
+                  <p>Graphic Design</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>1 Month</p>
+                  <p>(2023)</p>
+                </div>
+                <div id="responsive">
+                  <h4>Team</h4>
+                  <p><b>Huyen Nguyen:</b> Brand Designer</p>
+                  <p><b>Hanh Nguyen:</b> Brand Designer</p>
+                </div>
+                <div>
+                  <h4>Mentors</h4>
+                  <p>Marko Stanojevic</p>
+                  <p>Abbas Mteirek</p>
+                </div>
+              </div>
+              <div id="brief">
+                <div id="description">
+                  <h4>Course</h4>
+                  <p>Graphics Stream</p>
+                  <p>Client: PHLinh, Mark Lockwood & Jonas Koch</p>
+                </div>
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>Brand name and identity for a new gaming backpack brand designed specifically for professional gamers.</p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p><b>PLAYHARD</b> aims to become a powerful, trustful companion and assistant for gamers. We understand the value of your gaming gear and the importance of keeping it safe. With our backpacks, you can fully immerse yourself in your gaming journey, knowing that we have covered every detail to protect your valuable belongings: “We got your back”.</p>
+                </div>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
                     <section id="overview">
-                        <h4 class="tags" id="tag-5">Project Overview</h4>
+                        <!-- <h4 class="tags" id="tag-5">Project Overview</h4> -->
                         <div class="description">
                         <div class="prj-img" id="prj-img-1"><img src="assets/project/PLAYHARD/logo.png"></div>
-                        <p>
+                        <!-- <p>
                             <b>PLAYHARD</b> aims to become a powerful, trustful companion and assistant for gamers. We understand the value of your gaming gear and the importance of keeping it safe. With our backpacks, you can fully immerse yourself in your gaming journey, knowing that we have covered every detail to protect your valuable belongings: “We got your back”.
-                        </p>
+                        </p> -->
                         </div>
                     </section>
                     <section id="mockups-4">

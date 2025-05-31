@@ -28,26 +28,42 @@
    </head>
    <body>
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="archive.html">Archive</a></li>
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H0K7VT3TY"></script>

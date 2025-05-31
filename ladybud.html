@@ -37,26 +37,42 @@
 </script>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <main>
         <section id="project">
@@ -79,26 +95,56 @@
                         <div id="hero-img"><img src="assets/project/LADYBUD/mockup.png"></div>
                         <h3 id="prj-title-1">Ladybud</h3>
                     </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>UX Design / 2024</h4>
-                            <h4>3 Months</h4>
-                            <h4>CLient: Bayer</h4>
-                        </div>
-                        <h4 id="mentor">Lecturer: Becky Lu</h4>
-                    </div>
                 </div>
             </section>
+            <div id="info">
+              <div id="key">
+                <div id="responsive">
+                  <h4>Type</h4>
+                  <p>User Experience</p>
+                  <p>User Interface</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>3 Months</p>
+                  <p>(2024)</p>
+                </div>
+                <div id="responsive">
+                  <h4>Course</h4>
+                  <p>User Experience Stream</p>
+                  <p>Client: Bayer Vietnam</p>
+                </div>
+                <div>
+                  <h4>Mentor</h4>
+                  <p>Becky Lu</p>
+                </div>
+              </div>
+              <div id="brief">
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>
+                    Research and development of digital solutions that align with high-quality farming model of Bayer in Vietnam. Design Challenge: Generate and design an idea for an interactive experience for a user-friendly platform, it can include both digital and physical experience.
+                  </p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p>
+                    <b>Ladybud</b> is an assistant device paired with an app to help farmers in Ho Chi Minh City monitor the farm and give daily reports. It can move around on its own and rotate 360 degrees then notify the farmers about the real-time pest and disease. 
+                    This is designed specifically for those who encounter resistant pests and rely heavily on chemicals. It provides different methods to treat the insects (spray, scent, light, vibration, sound, heat) rather than excessively uses the chemicals pesticides.
+                </p>
+                </div>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
                     <section id="overview">
-                        <h4 class="tags" id="tag-5">Project Overview</h4>
+                        <!-- <h4 class="tags" id="tag-5">Project Overview</h4> -->
                         <div class="description">
                         <div class="prj-img" id="prj-img-1"><img src="assets/project/LADYBUD/mockup-1.png"></div>
-                        <p>
+                        <!-- <p>
                             <b>Ladybud</b> is an assistant device paired with an app to help farmers in Ho Chi Minh City monitor the farm and give daily reports. It can move around on its own and rotate 360 degrees then notify the farmers about the real-time pest and disease. 
                             This is designed specifically for those who encounter resistant pests and rely heavily on chemicals. It provides different methods to treat the insects (spray, scent, light, vibration, sound, heat) rather than excessively uses the chemicals pesticides.
-                        </p>
+                        </p> -->
                         </div>
                     </section>
                     <div class="prj-img" id="walk-through">
@@ -106,8 +152,8 @@
                             <source src="assets/project/LADYBUD/WalkthroughVideo.mp4">
                         </video>
                     </div>
-                    <iframe style="border: 0px;" width="100%" height="600" src="https://embed.figma.com/proto/V3MiCms9j8SpeVETrQRaoS/s3978746_NguyenNgocHuyen_UX-Project_High-fi?page-id=4030%3A1381&node-id=4196-18726&p=f&viewport=505%2C657%2C0.04&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4127%3A4919&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
-                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/b9a2073aa5.html" style="border: 0px; width: 100%; height: 50vh;"></iframe>
+                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://embed.figma.com/proto/V3MiCms9j8SpeVETrQRaoS/s3978746_NguyenNgocHuyen_UX-Project_High-fi?page-id=4030%3A1381&node-id=4127-4705&p=f&viewport=36%2C1098%2C0.59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4127%3A4919&show-proto-sidebar=1&embed-host=share"></iframe>
+                    <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/b9a2073aa5.html"></iframe>
                       <section id="mockups-6">
                         <div class="prj-img" id="prj-img-6"><img src="assets/project/LADYBUD/UI.png"></div>
                         <div class="prj-img" id="prj-img-2"><img src="assets/project/LADYBUD/UI-1.png"></div>

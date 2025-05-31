@@ -28,26 +28,42 @@
    </head>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H0K7VT3TY"></script>
@@ -74,29 +90,61 @@
                 </div>
               </div>
             <section id="hero">
-                
-                <div id="hero-content">
                     <div class="content">
                         <div id="hero-img"><img src="assets/project/HEM-SONG-HANH/photos/7.jpg"></div>
                         <h3 id="prj-title-1">Hẻm Song Hành</h3>
                     </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>Game Design / 2024</h4>
-                            <h4>4 Weeks</h4>
-                            <h4>Lecturer: Giang Nguyen</h4>
-                        </div>
-                        <!-- <h4 id="mentor">Lecturer: Giang Nguyen</h4> -->
-                    </div>
-                </div>
             </section>
+            <div id="info">
+              <div id="key1">
+                <div id="responsive1">
+                  <h4>Type</h4>
+                  <p>Board Game Design</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>4 Weeks (2024)</p>
+                </div>
+                <div id="responsive1">
+                  <h4>Course</h4>
+                  <p>Type & Design</p>
+                </div>
+                <div>
+                  <h4>Mentor</h4>
+                  <p>Giang Nguyen</p>
+                </div>
+              </div>
+              <div id="brief">
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>
+                    Choose a neighborhood in Saigon to research in terms of typography, culture, urban identity and locality then create a visual storytelling experience based on typography, text/texture, and the visual form of type.
+                  </p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p>
+                    <b>Hẻm Song Hành</b> is metaphorically referred to the co-existing lives of the
+                    residents and the red-light street massagers. “Gần mặt cách lòng”, they're
+                    right there next to each other but there's no love or connection between
+                    them. This is a 2P role-playing board game where players can act as
+                    massagers or residents to experience living together at Japan Town as
+                    well as learn the relationship between the people live and work here. As
+                    the players proceed, they will need to overcome barriers and complete
+                    tasks with the ultimate goal is meeting each other at the end of the road
+                    where they connect and understand each other. Will they overcome the
+                    challenges and form a stronger bond than ever?
+                </p>
+                </div>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
                     <section id="overview">
-                        <h4 class="tags" id="tag-5">Project Overview</h4>
+                        <!-- <h4 class="tags" id="tag-5">Project Overview</h4> -->
                         <div class="description">
                         <div class="prj-img" id="prj-img-1"><img src="assets/project/HEM-SONG-HANH/photos/1.jpg"></div>
-                        <p>
+                        <!-- <p>
                             <b>Hẻm Song Hành</b> is metaphorically referred to the co-existing lives of the
                             residents and the red-light street massagers. “Gần mặt cách lòng”, they're
                             right there next to each other but there's no love or connection between
@@ -107,7 +155,7 @@
                             tasks with the ultimate goal is meeting each other at the end of the road
                             where they connect and understand each other. Will they overcome the
                             challenges and form a stronger bond than ever?
-                        </p>
+                        </p> -->
                         </div>
                     </section>
                     <section id="mockups-3">

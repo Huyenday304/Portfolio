@@ -37,26 +37,42 @@
 </script>
    <body id="project-body">
     <header>
-        <nav>
-            <ul id="navi">
-              <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
-              <div id="menuToggle" onclick="toggleMenu()"><img src="assets/images/burger.svg"></div>
-              <ul id="menu">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="works.html">Works</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
-              </ul>
-            </ul>
-            <ul id="menu-mobile">
+      <nav>
+        <div id="navi">
+          <li id="logo"><a href="index.html"><img src="assets/images/LOGO.svg" id="logo" alt="nhím"></a></li>
+          <div id="menuToggle" onclick="toggleMenu()">
+            <img src="assets/images/burger.svg" id="burgerIcon" alt="Open menu">
+          </div>
+          <ul id="menu">
               <li><a href="about.html">About</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="works.html">Works</a></li>
               <li><a href="archive.html">Archive</a></li>
-              <!-- <div class="divider"></div> -->
               <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
           </ul>
-          </nav>
+        </div>
+        <ul id="menu-mobile">
+          <div id="closeToggle" onclick="toggleMenu()">
+            <img src="assets/images/close.svg" id="closeIcon" alt="Close menu">
+          </div>
+          <!-- <div id="navi"> -->
+          <div id="mobile-down">
+          <li><a href="index.html">Home</a></li>
+          <!-- </div> -->
+          <div class="divider"></div>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="archive.html">Archive</a></li>
+          <div class="divider"></div>
+          <li><a href="mailto:ngnghuyen0403@gmail.com" title="ngnghuyen0403@gmail.com" target="_blank">Contact</a></li>
+          <span class="caption">
+            <!-- ©&nbsp; -->
+            [GMT+7]&nbsp;
+            2025
+            &nbsp;SAIGON, VIETNAM.&nbsp;
+          </span>
+        </div>
+      </ul>
+      </nav>
     </header>
     <main>
         <section id="project">
@@ -74,29 +90,58 @@
                 </div>
               </div>
             <section id="hero">
-                
-                <div id="hero-content">
                     <div class="content">
                         <div id="hero-img-1"><img src="assets/project/THUY TINH/Mockup 1.jpg"></div>
                         <h3 id="prj-title-1">Thủy Tinh</h3>
                     </div>
-                    <div id="info">
-                        <div id="key">
-                            <h4>Lettering Logotype / 2024</h4>
-                            <h4>2 Weeks</h4>
-                            <h4>Lecturer: Giang Nguyen</h4>
-                        </div>
-                        <!-- <h4 id="mentor">Lecturer: Giang Nguyen</h4> -->
-                    </div>
-                </div>
             </section>
+            <div id="info">
+              <div id="key1">
+                <div id="responsive1">
+                  <h4>Type</h4>
+                  <p>Lettering Logotype</p>
+                </div>
+                <div>
+                  <h4>Duration</h4>
+                  <p>2 Weeks (2024)</p>
+                </div>
+                <div id="responsive1">
+                  <h4>Course</h4>
+                  <p>Type & Design</p>
+                </div>
+                <div>
+                  <h4>Mentor</h4>
+                  <p>Giang Nguyen</p>
+                </div>
+              </div>
+              <div id="brief">
+                <div id="description">
+                  <h4>Brief</h4>
+                  <p>
+                    Come up with a brand using a figure from mythology as name and imagine the type of business using it and the characterisitics of the business. Create a custom-typography logotype using the full name of the business as the key element.
+                  </p>
+                </div>
+                <div>
+                  <h4>Idea</h4>
+                  <p>
+                    <b>Thuy Tinh,</b> the legendary god of the sea in the famous Vietnamese tale of Son Tinh – Thuy Tinh, 
+                    embodies the power to command storms and floods. Revered as a symbol of renewal, prosperity, 
+                    and luxury, the essence of Thuy Tinh seamlessly aligns with a sophisticated Vietnamese coastal 
+                    seafood restaurant. It resonates with authenticity in Vietnam’s rich flavors while reflecting the 
+                    elegance of the dining experience. It celebrates a harmonious connection to nature, reflecting 
+                    the tranquil beauty of the ocean. Beyond its cultural and aesthetic allure, Thuy Tinh also carries a 
+                    wish for prosperity and success, mirroring the bountiful spirit of the sea.
+                </p>
+                </div>
+              </div>
+            </div>
             <section id="prj-details">
                 <section id="case-study">
                     <section id="overview">
-                        <h4 class="tags" id="tag-5">Project Overview</h4>
+                        <!-- <h4 class="tags" id="tag-5">Project Overview</h4> -->
                         <div class="description">
                         <div class="prj-img" id="prj-img-1"><img src="assets/project/THUY TINH/logo.png"></div>
-                        <p>
+                        <!-- <p>
                             <b>Thuy Tinh,</b> the legendary god of the sea in the famous Vietnamese tale of Son Tinh – Thuy Tinh, 
                             embodies the power to command storms and floods. Revered as a symbol of renewal, prosperity, 
                             and luxury, the essence of Thuy Tinh seamlessly aligns with a sophisticated Vietnamese coastal 
@@ -104,7 +149,7 @@
                             elegance of the dining experience. It celebrates a harmonious connection to nature, reflecting 
                             the tranquil beauty of the ocean. Beyond its cultural and aesthetic allure, Thuy Tinh also carries a 
                             wish for prosperity and success, mirroring the bountiful spirit of the sea.
-                        </p>
+                        </p> -->
                         </div>
                     </section>
                     <section id="mockups-6">
