@@ -912,7 +912,7 @@ footer {
 .work-thumbnail,
 .work-thumbnail-1 {
     width: 100%;
-    height: 42vh;
+    height: 25vw;
     overflow: hidden;
 }
 
@@ -1491,6 +1491,9 @@ video {
     position: relative;
     transition: transform 0.4s cubic-bezier(0.35, 1.5, 0.6, 1);
 }
+#motion-graphics {
+    height: auto;
+}
 /* #prj-img-1 img {
     width: 110%;
     height: 110%;
@@ -1871,10 +1874,10 @@ video {
     #block-5 {
         display: none;
     }
-    .work-thumbnail,
+    /* .work-thumbnail,
     .work-thumbnail-1 {
-        height: 33vh;
-    }
+        height: 25vw;
+    } */
     #info {
         width: 100%;
     }
@@ -2050,9 +2053,13 @@ video {
         padding: 1.2vh 4.1vw;
         height: 3.2rem;
     }
+    .content,
+    #prj-img-1,
     .work-thumbnail,
-    .work-thumbnail-1 {
-        height: 28vh;
+    .work-thumbnail-1,
+    #prj-img-4,
+    #prj-img-3 {
+        height: 28vw;
     }
 
     #tag-4 {
@@ -2124,6 +2131,9 @@ video {
     }
     .fp-iframe {
         height: 45vh;
+    }
+    .fp-iframe3 {
+        height: auto;
     }
 
     /* .description {
@@ -2388,7 +2398,7 @@ video {
         height: 80vh;
     }
     .fp-iframe3 {
-        height: 35vh;
+        height: auto;
     }
     #ngo {
         /* bottom: 4.045rem; */
@@ -2448,7 +2458,7 @@ video {
     .work-thumbnail-1,
     #prj-img-4,
     #prj-img-3 {
-        height: 32vh;
+        height: 62vw;
     }
 
     #mockups-2 {
@@ -2869,7 +2879,7 @@ video {
     .prj-img,
     .work-thumbnail,
     .work-thumbnail-1 {
-        height: 28vh;
+        height: 62vw;
     }
     #hero-landing {
         flex-direction: column;
