@@ -104,8 +104,7 @@ nav::before {
 
 #menu-mobile {
     display: none;
-
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #menu li a{
@@ -728,12 +727,14 @@ h3 {
     opacity: 1;
     transition: opacity 1.5s;
     align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
     
 }
 #chay-load {
-    position: relative;
+    position: absolute;
     top: 38%;
-    margin: 0 25.6vw;
+    /* margin: 0 25.6vw; */
     opacity: 1;
     width: 9rem;
     animation: load 1.5s linear infinite;
@@ -750,7 +751,7 @@ h3 {
         left: 0;
     }
     100% {
-        left: 90%;
+        left: 100%;
     }
 }
 
@@ -2666,7 +2667,7 @@ video {
         display: flex;
       flex-direction: column;
       align-items: flex-start;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       /* background-color: var(--primary); */
       backdrop-filter: blur(25px);
       -webkit-backdrop-filter: blur(25px);
@@ -2705,7 +2706,7 @@ video {
         visibility: visible;
         pointer-events: auto;
         transform: translateX(0);
-        justify-content: space-between;
+        /* justify-content: space-between; */
         transition:
         transform 0.8s ease-in-out,
         opacity 0.8s ease-in-out,
