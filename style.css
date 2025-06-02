@@ -1852,11 +1852,18 @@ video {
 }
 /*--------RESPONSIVE---------*/
 /*----DESKTOP----LAPTOP-----*/
+@media screen and (max-width: 2560px) and (min-width: 1920px) {
+#block-5 {
+    width: 37.85rem;
+}
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1513px) {
 #block-5 {
     width: 22.1rem;
 }
 }
+
 @media screen and (max-width: 1440px) {
     #chay {
         animation: chay 6.5s linear infinite;
