@@ -2413,7 +2413,7 @@ video {
     #showcase {
         padding: 0 1rem;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
     /* #content-1 {
         grid-column-start: 1;
