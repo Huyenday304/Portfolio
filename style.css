@@ -465,7 +465,10 @@ p {
     grid-column-start: 2;
     grid-row-start: 5;
 } */
-
+#content07 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 h4,
 .button,
 .footer-text {
@@ -2446,6 +2449,10 @@ video {
         grid-column-end: 3;
         grid-row-start: 4;
     } */
+    #content07 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
     #hero,
     #prj-details {
         padding: 0 1rem;
