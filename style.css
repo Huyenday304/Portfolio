@@ -405,6 +405,15 @@ p {
     position: relative;
 }
 
+#winner #top {
+    padding: 0;
+}
+
+#winner #block-5 {
+    background-color: #000000;
+    z-index: -10;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -1607,7 +1616,7 @@ video {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    /* grid-template-rows: 2fr 1fr; */
     height: auto;
     gap: 1rem;
 }
@@ -2281,6 +2290,10 @@ video {
             grid-column-start: 1;
             grid-column-end: 3;
     }
+
+    #winner #tag-1 {
+        margin-top: 2.6rem;
+    }
     .dad {
         align-items: left;
     }
@@ -2383,6 +2396,10 @@ video {
 
 /* ------MOBILE------- */
 @media screen and (max-width: 450px) {
+
+    p {
+        font-size: 14px;
+    }
     #services li {
         height: 30vh;
     }
@@ -2911,6 +2928,10 @@ video {
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
+    }
+
+    #winner #tag-1 {
+        margin-top: 1rem;
     }
 }
 
