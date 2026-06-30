@@ -2382,7 +2382,7 @@ video {
 }
 
 /* ------MOBILE------- */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     #services li {
         height: 30vh;
     }
