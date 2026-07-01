@@ -2397,9 +2397,9 @@ video {
 /* ------MOBILE------- */
 @media screen and (max-width: 450px) {
 
-    p {
+    /* p {
         font-size: 14px;
-    }
+    } */
     #services li {
         height: 30vh;
     }
